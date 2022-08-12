@@ -5,6 +5,8 @@ random_num = math.floor(random.random() * 3)
 
 choices = ['rock', 'paper', 'scissors']
 
+# alternatively, you can just use the random method
+# computer_choice = random.choice(choices)
 computer_choice = choices[random_num]
 
 print("Welcome to rock, paper, scissors.  Are you ready to play?")
