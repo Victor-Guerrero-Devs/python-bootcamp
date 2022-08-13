@@ -29,3 +29,8 @@ def decrypt(cipher_text, shift_amount):
     print(f"The decoded text is {plain_text}")
 
 
+# create decision logic for encrypting and decrypting
+if direction == "encode":
+    encrypt(plain_text=text, shift_amount=shift)
+elif direction == "decode":
+    decrypt(cipher_text=text, shift_amount=shift)
